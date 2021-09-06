@@ -14,13 +14,17 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Table(name = "alumno")
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Alumno {
 
 	@Id
